@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.5rm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image: radial-gradient(rgb(189, 62, 189),#E6E3AC);
+}
+
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: grid;
+    place-content: center;
+    margin:1rem;
+}
+section{
+    display: flex;
+    flex-flow: column  nowrap;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    width:40vw;
+    height: 10vh;
+    border-radius: 25px;
+    color: black;
+}
+form .add{
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    width:8vw;
+    height:8vh;
+    border-radius: 20px;
+    color: darkmagenta;
+    background-color:#E6E3AC;
+    font-weight: bold;
+
+}
+ul{
+
+    list-style: none;
+}
+li h3{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40vw;
+    height:8vh;
+    padding: 1.2rem;
+    margin: 1.2rem;
+
+}
+
+
+li .delete{
+    position: absolute;
+    margin: 1.2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: darkmagenta;
+    font-weight: bold;
+    background-color:#E6E3AC;
+
+}
